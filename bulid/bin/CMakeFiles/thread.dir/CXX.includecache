@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/exbot/Documents/boost_thread_linux/src/boost_thread.cpp
+stdio.h
+-
+vector
+-
+list
+-
+iostream
+-
+boost/config.hpp
+-
+string
+-
+boost/graph/adjacency_list.hpp
+-
+boost/tuple/tuple.hpp
+-
+boost/timer.hpp
+-
+boost/progress.hpp
+-
+boost/smart_ptr.hpp
+-
+boost/bind.hpp
+-
+boost/signals2.hpp
+-
+boost/random.hpp
+-
+boost/thread.hpp
+-
+boost/ref.hpp
+-
+boost/function.hpp
+-
+stack
+-
+
