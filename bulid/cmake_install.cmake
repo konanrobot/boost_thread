@@ -1,8 +1,8 @@
-# Install script for directory: /home/exbot/Documents/boost_thread_linux
+# Install script for directory: /home/exbot/Documents/c++项目/boost_thread_linux
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/exbot/Documents/boost_thread_linux/target")
+  SET(CMAKE_INSTALL_PREFIX "/home/exbot/Documents/c++项目/boost_thread_linux/target")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/exbot/Documents/boost_thread_linux/bulid/bin/cmake_install.cmake")
+  INCLUDE("/home/exbot/Documents/c++项目/boost_thread_linux/bulid/bin/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -44,7 +44,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/exbot/Documents/boost_thread_linux/bulid/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/exbot/Documents/c++项目/boost_thread_linux/bulid/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/exbot/Documents/boost_thread_linux/bulid/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/exbot/Documents/c++项目/boost_thread_linux/bulid/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

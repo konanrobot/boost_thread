@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/exbot/Documents/boost_thread_linux/src/boost_thread.cpp
+/home/exbot/Documents/c++项目/boost_thread_linux/src/boost_thread.cpp
 stdio.h
 -
 vector

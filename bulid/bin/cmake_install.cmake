@@ -1,8 +1,8 @@
-# Install script for directory: /home/exbot/Documents/boost_thread_linux/src
+# Install script for directory: /home/exbot/Documents/c++项目/boost_thread_linux/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/exbot/Documents/boost_thread_linux/target")
+  SET(CMAKE_INSTALL_PREFIX "/home/exbot/Documents/c++项目/boost_thread_linux/target")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

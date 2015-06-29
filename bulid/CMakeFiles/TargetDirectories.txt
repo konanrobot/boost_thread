@@ -1,1 +1,1 @@
-/home/exbot/Documents/boost_thread_linux/bulid/bin/CMakeFiles/thread.dir
+/home/exbot/Documents/c++项目/boost_thread_linux/bulid/bin/CMakeFiles/thread.dir

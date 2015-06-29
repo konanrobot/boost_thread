@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/exbot/Documents/boost_thread_linux/src/boost_thread.cpp" "/home/exbot/Documents/boost_thread_linux/bulid/bin/CMakeFiles/thread.dir/boost_thread.cpp.o"
+  "/home/exbot/Documents/c++项目/boost_thread_linux/src/boost_thread.cpp" "/home/exbot/Documents/c++项目/boost_thread_linux/bulid/bin/CMakeFiles/thread.dir/boost_thread.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

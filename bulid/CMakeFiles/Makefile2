@@ -44,10 +44,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/exbot/Documents/boost_thread_linux
+CMAKE_SOURCE_DIR = /home/exbot/Documents/c++项目/boost_thread_linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/exbot/Documents/boost_thread_linux/bulid
+CMAKE_BINARY_DIR = /home/exbot/Documents/c++项目/boost_thread_linux/bulid
 
 #=============================================================================
 # Directory level rules for directory bin
@@ -71,7 +71,7 @@ bin/preinstall:
 bin/CMakeFiles/thread.dir/all:
 	$(MAKE) -f bin/CMakeFiles/thread.dir/build.make bin/CMakeFiles/thread.dir/depend
 	$(MAKE) -f bin/CMakeFiles/thread.dir/build.make bin/CMakeFiles/thread.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/boost_thread_linux/bulid/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/c++项目/boost_thread_linux/bulid/CMakeFiles  1
 	@echo "Built target thread"
 .PHONY : bin/CMakeFiles/thread.dir/all
 
@@ -81,9 +81,9 @@ all: bin/CMakeFiles/thread.dir/all
 
 # Build rule for subdir invocation for target.
 bin/CMakeFiles/thread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/boost_thread_linux/bulid/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/c++项目/boost_thread_linux/bulid/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 bin/CMakeFiles/thread.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/boost_thread_linux/bulid/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/c++项目/boost_thread_linux/bulid/CMakeFiles 0
 .PHONY : bin/CMakeFiles/thread.dir/rule
 
 # Convenience name for target.
